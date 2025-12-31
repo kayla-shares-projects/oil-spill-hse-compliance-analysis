@@ -21,6 +21,30 @@ Rather than focusing on operational prevention, this analysis reflects the type 
 ## Data Source
 The primary dataset used in this project is a publicly available oil spill incidents database containing reported spill events, facility information, location details, contributing factors, material types, quantities, and cleanup timelines.
 
+## Methodology
+This analysis follows a regulatory-style analytical approach focused on monitoring, risk identification, and compliance oversight rather than operational intervention.
+
+The workflow is structured as follows:
+
+1. **Data Familiarization**  
+   Review reported spill incidents to understand available attributes, reporting timelines, and data limitations inherent in regulatory reporting systems.
+
+2. **Data Preparation**  
+   Clean and standardize date fields, location identifiers, and quantity measurements to ensure consistency across records. Where necessary, derived fields (e.g., response duration) will be calculated from existing data.
+
+3. **Exploratory Analysis**  
+   Analyze spill frequency, distribution, and trends across time, facilities, regions, and contributing factors to identify patterns of elevated environmental risk.
+
+4. **Impact and Severity Assessment**  
+   Evaluate spill severity using reported quantities, material types, and indicators of environmental impact such as affected waterbodies.
+
+5. **Response Effectiveness Analysis**  
+   Assess cleanup and response performance by examining time-to-close metrics and identifying incidents with prolonged remediation periods.
+
+6. **Visualization and Reporting**  
+   Summarize key findings through dashboards and visualizations designed to support regulatory decision-making, inspection prioritization, and environmental oversight.
+
+
 ## Tools
 - SQL for data querying and aggregation
 - Power BI for visualization and dashboarding
